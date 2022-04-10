@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class SwitchWeek {
     public static String nameOfDay(int day) {
-        String name = ("Сегодня" + day);
+        String name = null;
         switch (day) {
             case 1:
                 name = "Понедельник";
@@ -23,7 +23,7 @@ public class SwitchWeek {
             case 7:
                 name = "Воскресенье";
             default:
-                System.out.println("Ошибка");
+                name = "Ошибка";
         }
         return name;
     }
