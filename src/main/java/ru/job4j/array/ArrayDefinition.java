@@ -11,7 +11,7 @@ public class ArrayDefinition {
         System.out.println();
         String[] names = new String[4];
         names[0] = "Иван Иванов";
-        names[1] = "Андрей Курочкин";
+        names[1] = "Андрей Кырочкин";
         names[2] = "Екатерина Седых";
         names[3] = "Арина Новожилова";
         System.out.println(names[0]);
