@@ -7,6 +7,7 @@ public class ArrayChar {
         for (int index = 0; index < perf.length; index++) {
             if (perf[index] != word[index]) {
                 result = false;
+                break;
             }
         }
         return result;
