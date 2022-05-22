@@ -30,4 +30,12 @@ public class PointTest {
         double expected = 4;
         Assert.assertEquals(expected, x.distance(y), 0.01);
     }
+
+    @Test
+    public void when107to5418then12dot36() {
+        Point x = new Point(1, 0, 7);
+        Point y = new Point(5, 4, 18);
+        double expected = 12.36;
+        Assert.assertEquals(expected, x.distance3d(y), 0.01);
+    }
 }
